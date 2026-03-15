@@ -1,0 +1,51 @@
+
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(156, 76, 186);
+}
+
+.card{
+    height: 450px;
+    width:350px;
+    justify-content: center;
+    background-color: aliceblue;
+    border-radius: 7%;
+    text-align: center;
+    animation:spark 1.5s infinite alternate;
+     
+
+
+}
+
+#image{
+    height: 150px;
+    width: 250px;
+    border-radius: 7%;
+   
+}
+#title{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    text-align: justify;
+    padding-left:5%;
+    padding-right: 5%;
+}
+
+.card:hover{
+     background-color: rgb(74, 164, 255);
+}
+@keyframes spark{
+    0%{
+        box-shadow:0 0 10px #00ffff;
+    }
+   
+    100%{
+        box-shadow:0 0 60px #00ffff;
+    }
+}
