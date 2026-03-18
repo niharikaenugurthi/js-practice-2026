@@ -9,6 +9,6 @@ This is a beginner login form using HTML, CSS, and JavaScript.
 
 ## Technologies Used
 - HTML
-- CSS
-- JavaScript
+- CSS - JavaScript
+
 ![alt text](image.png)
