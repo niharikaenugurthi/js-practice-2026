@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    margin-top: 200px;
+    
+}
+
+.leaves {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 120px solid rgb(37, 188, 37);
+    margin: auto;
+    margin-bottom: -80px;
+}
+.leaves1{
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 120px solid rgb(37, 188, 37);
+    margin: auto;
+    margin-bottom: -70px;
+}
+.leaves2 {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 100px solid rgb(37, 188, 37);
+    margin:auto;
+    margin-bottom: -80px;
+}
+.leaves3 {
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 120px solid rgb(37, 188, 37);
+    margin: auto;
+}
+.trunk {
+    width: 40px;
+    height: 100px;
+    background: brown;
+    margin: auto;
+}
+
+button{
+    margin-top: 5%;
+}
+
+.star{
+    font-size: 30px;
+    cursor: pointer;
+}
+
