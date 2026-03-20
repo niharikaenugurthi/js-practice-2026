@@ -1,0 +1,108 @@
+body{
+   text-align:center;
+    
+}
+h1{
+    color: rgb(82, 20, 133);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.shapes{
+    height: 600px;
+    width: 900px;
+    margin: auto;
+    border-radius: 9%;
+    background-color: rgb(127, 206, 206);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row ;
+    gap: 50px;
+    justify-content: center; /* center items horizontally */
+    align-items: center;
+
+}
+
+.triangle{
+    height: 0;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid rgb(43, 90, 134);
+    
+    
+}
+
+.square{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(223, 221, 54);
+}
+
+.rectangle{
+    height: 150px;
+    width: 250px;
+    background-color: brown;
+}
+
+.circle{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;;
+    border-radius: 50%;
+}
+
+
+
+.pentagon {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  clip-path: polygon(
+    50% 0%, 
+    100% 38%, 
+    82% 100%, 
+    18% 100%, 
+    0% 38%
+  );
+}
+
+.hexagon{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(172, 41, 150);
+    clip-path: polygon(
+    25% 0%, 
+    75% 0%, 
+    100% 50%, 
+    75% 100%, 
+    25% 100%, 
+    0% 50%
+
+    );
+
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+
+.shapes > div:hover {
+  animation: zoom 0.5s infinite alternate;
+}
+
+.shapes:hover{
+    animation: spark 1s infinite alternate;
+}
+@keyframes spark {
+    0%{
+        box-shadow:0 0 40px aqua;
+    }
+    100%{
+        box-shadow:0 0 60px aqua;
+    }
+}
