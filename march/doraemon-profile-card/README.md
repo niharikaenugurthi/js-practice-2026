@@ -11,3 +11,7 @@ A simple profile card built using HTML and CSS.
 ## Technologies Used
 - HTML
 - CSS
+
+![alt text](image.png)
+
+![alt text](image-1.png)
