@@ -17,3 +17,4 @@ A simple and interactive project where users can change the background color by 
 - CSS
 - JavaScript
 
+![alt text](image.png)
