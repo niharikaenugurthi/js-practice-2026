@@ -1,0 +1,40 @@
+body{
+    
+     display: flex;
+      justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    margin-top: 150px;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    background-color: rgb(155, 97, 210);
+    border-radius: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.no{
+    background-color: antiquewhite;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+.button{
+     display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
